@@ -1,0 +1,23 @@
+version: "3"
+services:
+  db:
+    image: postgres
+    environment:
+      POSTGRES_USER: 'postgres'
+      POSTGRES_DB: 'postgres'
+      POSTGRES_PASSWORD: 'postgres'
+    volumes:
+      - ./data/db:/var/lib/posgresql/data
+    restart: always
+    container_name: database
+  ecommerce:
+    container_name: ecommerce
+    build: .
+#    command: python3 manage.py makemigrations --noinput && python3 manage.py migrate --noinput && python3 manage.py createsuperuser --noinput --username root --email root@root.com; gunicorn -b 0.0.0.0:8000 ecommerce.wsgi
+    ports:
+      - "8000:8000"
+    restart: always
+    volumes:
+      - .:/ecommerce
+    depends_on:
+      - db

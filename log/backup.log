@@ -1,0 +1,1331 @@
+Watching for file changes with StatReloader
+
+def xmap(task, it):
+    return 1
+
+
+def backend_cleanup():
+    return 1
+
+
+def chain(*args, **kwargs):
+    return 1
+
+
+def backup_database():
+    return 1
+
+
+def xstarmap(task, it):
+    return 1
+
+
+def accumulate(self, *args, **kwargs):
+    return 1
+
+
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+
+def chunks(task, it, n):
+    return 1
+
+
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+
+def xmap(task, it):
+    return 1
+
+
+def backend_cleanup():
+    return 1
+
+
+def chain(*args, **kwargs):
+    return 1
+
+
+def xstarmap(task, it):
+    return 1
+
+
+def accumulate(self, *args, **kwargs):
+    return 1
+
+
+def backup_database():
+    return 1
+
+
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+
+def chunks(task, it, n):
+    return 1
+
+
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+
+def xmap(task, it):
+    return 1
+
+
+def backend_cleanup():
+    return 1
+
+
+def chain(*args, **kwargs):
+    return 1
+
+
+def xstarmap(task, it):
+    return 1
+
+
+def accumulate(self, *args, **kwargs):
+    return 1
+
+
+def backup_database():
+    return 1
+
+
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+
+def chunks(task, it, n):
+    return 1
+
+
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+
+def xmap(task, it):
+    return 1
+
+
+def backend_cleanup():
+    return 1
+
+
+def chain(*args, **kwargs):
+    return 1
+
+
+def backup_database():
+    return 1
+
+
+def xstarmap(task, it):
+    return 1
+
+
+def accumulate(self, *args, **kwargs):
+    return 1
+
+
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+
+def chunks(task, it, n):
+    return 1
+
+
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /users/register/
+Not Found: /users/register/
+Watching for file changes with StatReloader
+Not Found: /customer/
+Watching for file changes with StatReloader
+Internal Server Error: /customer/login/
+Traceback (most recent call last):
+  File "/home/sasha/che/lib/python3.11/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/utils.py", line 55, in render
+    context or self.get_context(),
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 298, in get_context
+    top_errors = self.non_field_errors().copy()
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 333, in non_field_errors
+    return self.errors.get(
+           ^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 185, in errors
+    self.full_clean()
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 404, in full_clean
+    self._clean_fields()
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 411, in _clean_fields
+    value = bf.initial if field.disabled else bf.data
+                                              ^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/boundfield.py", line 120, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 209, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/widgets.py", line 263, in value_from_datadict
+    return data.get(name)
+           ^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+/home/sasha/PycharmProjects/ecommerce/customer/forms.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /customer/login/
+Traceback (most recent call last):
+  File "/home/sasha/che/lib/python3.11/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/utils.py", line 55, in render
+    context or self.get_context(),
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 298, in get_context
+    top_errors = self.non_field_errors().copy()
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 333, in non_field_errors
+    return self.errors.get(
+           ^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 185, in errors
+    self.full_clean()
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 404, in full_clean
+    self._clean_fields()
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 411, in _clean_fields
+    value = bf.initial if field.disabled else bf.data
+                                              ^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/boundfield.py", line 120, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 209, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/widgets.py", line 263, in value_from_datadict
+    return data.get(name)
+           ^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+Internal Server Error: /customer/login/
+Traceback (most recent call last):
+  File "/home/sasha/che/lib/python3.11/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/utils.py", line 55, in render
+    context or self.get_context(),
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 298, in get_context
+    top_errors = self.non_field_errors().copy()
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 333, in non_field_errors
+    return self.errors.get(
+           ^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 185, in errors
+    self.full_clean()
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 404, in full_clean
+    self._clean_fields()
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 411, in _clean_fields
+    value = bf.initial if field.disabled else bf.data
+                                              ^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/boundfield.py", line 120, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 209, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/widgets.py", line 263, in value_from_datadict
+    return data.get(name)
+           ^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+Internal Server Error: /customer/login/
+Traceback (most recent call last):
+  File "/home/sasha/che/lib/python3.11/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/utils.py", line 55, in render
+    context or self.get_context(),
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 298, in get_context
+    top_errors = self.non_field_errors().copy()
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 333, in non_field_errors
+    return self.errors.get(
+           ^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 185, in errors
+    self.full_clean()
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 404, in full_clean
+    self._clean_fields()
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 411, in _clean_fields
+    value = bf.initial if field.disabled else bf.data
+                                              ^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/boundfield.py", line 120, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 209, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/widgets.py", line 263, in value_from_datadict
+    return data.get(name)
+           ^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+/home/sasha/PycharmProjects/ecommerce/customer/views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /custom/login
+Internal Server Error: /customer/login/
+Traceback (most recent call last):
+  File "/home/sasha/che/lib/python3.11/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/utils.py", line 55, in render
+    context or self.get_context(),
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 298, in get_context
+    top_errors = self.non_field_errors().copy()
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 333, in non_field_errors
+    return self.errors.get(
+           ^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 185, in errors
+    self.full_clean()
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 404, in full_clean
+    self._clean_fields()
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 411, in _clean_fields
+    value = bf.initial if field.disabled else bf.data
+                                              ^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/boundfield.py", line 120, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 209, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/widgets.py", line 263, in value_from_datadict
+    return data.get(name)
+           ^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+/home/sasha/PycharmProjects/ecommerce/customer/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /customer/login/
+Traceback (most recent call last):
+  File "/home/sasha/che/lib/python3.11/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/utils.py", line 55, in render
+    context or self.get_context(),
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 298, in get_context
+    top_errors = self.non_field_errors().copy()
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 333, in non_field_errors
+    return self.errors.get(
+           ^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 185, in errors
+    self.full_clean()
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 404, in full_clean
+    self._clean_fields()
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 411, in _clean_fields
+    value = bf.initial if field.disabled else bf.data
+                                              ^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/boundfield.py", line 120, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 209, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/widgets.py", line 263, in value_from_datadict
+    return data.get(name)
+           ^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+/home/sasha/PycharmProjects/ecommerce/customer/forms.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /customer/login/
+Traceback (most recent call last):
+  File "/home/sasha/che/lib/python3.11/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/utils.py", line 55, in render
+    context or self.get_context(),
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 298, in get_context
+    top_errors = self.non_field_errors().copy()
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 333, in non_field_errors
+    return self.errors.get(
+           ^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 185, in errors
+    self.full_clean()
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 404, in full_clean
+    self._clean_fields()
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 411, in _clean_fields
+    value = bf.initial if field.disabled else bf.data
+                                              ^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/boundfield.py", line 120, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 209, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/widgets.py", line 263, in value_from_datadict
+    return data.get(name)
+           ^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+Internal Server Error: /customer/login/
+Traceback (most recent call last):
+  File "/home/sasha/che/lib/python3.11/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/utils.py", line 55, in render
+    context or self.get_context(),
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 298, in get_context
+    top_errors = self.non_field_errors().copy()
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 333, in non_field_errors
+    return self.errors.get(
+           ^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 185, in errors
+    self.full_clean()
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 404, in full_clean
+    self._clean_fields()
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 411, in _clean_fields
+    value = bf.initial if field.disabled else bf.data
+                                              ^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/boundfield.py", line 120, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 209, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/widgets.py", line 263, in value_from_datadict
+    return data.get(name)
+           ^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+/home/sasha/PycharmProjects/ecommerce/customer/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /customer/login/
+Traceback (most recent call last):
+  File "/home/sasha/che/lib/python3.11/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/utils.py", line 55, in render
+    context or self.get_context(),
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 298, in get_context
+    top_errors = self.non_field_errors().copy()
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 333, in non_field_errors
+    return self.errors.get(
+           ^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 185, in errors
+    self.full_clean()
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 404, in full_clean
+    self._clean_fields()
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 411, in _clean_fields
+    value = bf.initial if field.disabled else bf.data
+                                              ^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/boundfield.py", line 120, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 209, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/widgets.py", line 263, in value_from_datadict
+    return data.get(name)
+           ^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+Internal Server Error: /customer/login/
+Traceback (most recent call last):
+  File "/home/sasha/che/lib/python3.11/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/utils.py", line 55, in render
+    context or self.get_context(),
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 298, in get_context
+    top_errors = self.non_field_errors().copy()
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 333, in non_field_errors
+    return self.errors.get(
+           ^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 185, in errors
+    self.full_clean()
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 404, in full_clean
+    self._clean_fields()
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 411, in _clean_fields
+    value = bf.initial if field.disabled else bf.data
+                                              ^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/boundfield.py", line 120, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 209, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/widgets.py", line 263, in value_from_datadict
+    return data.get(name)
+           ^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Could not reverse url from user.user
+Could not reverse url from user.user
+Not Found: /api-auth/
+Not Found: /favicon.ico
+Could not reverse url from user.user
+Could not reverse url from user.user
+/home/sasha/PycharmProjects/ecommerce/customer/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/sasha/PycharmProjects/ecommerce/customer/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/sasha/PycharmProjects/ecommerce/customer/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /customer/login/
+Traceback (most recent call last):
+  File "/home/sasha/che/lib/python3.11/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/utils.py", line 55, in render
+    context or self.get_context(),
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 298, in get_context
+    top_errors = self.non_field_errors().copy()
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 333, in non_field_errors
+    return self.errors.get(
+           ^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 185, in errors
+    self.full_clean()
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 404, in full_clean
+    self._clean_fields()
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 411, in _clean_fields
+    value = bf.initial if field.disabled else bf.data
+                                              ^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/boundfield.py", line 120, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/forms.py", line 209, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/forms/widgets.py", line 263, in value_from_datadict
+    return data.get(name)
+           ^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+/home/sasha/PycharmProjects/ecommerce/customer/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /customer/login/
+Traceback (most recent call last):
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 416, in execute
+    return Database.Cursor.execute(self, query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: customer_customer.national_code
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/sasha/che/lib/python3.11/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/views/generic/base.py", line 101, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/views/generic/edit.py", line 144, in post
+    return self.form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/PycharmProjects/ecommerce/customer/views.py", line 104, in form_valid
+    Customer.objects.get_or_create(user=user)
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/models/query.py", line 588, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/models/query.py", line 435, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/models/query.py", line 262, in __len__
+    self._fetch_all()
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/models/query.py", line 1354, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/models/query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1202, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/utils.py", line 99, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/utils.py", line 80, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 416, in execute
+    return Database.Cursor.execute(self, query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: customer_customer.national_code
+Watching for file changes with StatReloader
+Forbidden (CSRF token from POST incorrect.): /customer/login/
+Forbidden (CSRF token from POST incorrect.): /customer/login/
+Internal Server Error: /customer/login/
+Traceback (most recent call last):
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 416, in execute
+    return Database.Cursor.execute(self, query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: customer_customer.national_code
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/sasha/che/lib/python3.11/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/views/generic/base.py", line 101, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/views/generic/edit.py", line 144, in post
+    return self.form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/PycharmProjects/ecommerce/customer/views.py", line 104, in form_valid
+    Customer.objects.get_or_create(user=user)
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/models/query.py", line 588, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/models/query.py", line 435, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/models/query.py", line 262, in __len__
+    self._fetch_all()
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/models/query.py", line 1354, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/models/query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1202, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/utils.py", line 99, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/utils.py", line 80, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 416, in execute
+    return Database.Cursor.execute(self, query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: customer_customer.national_code
+/home/sasha/PycharmProjects/ecommerce/customer/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /customer/login/
+Traceback (most recent call last):
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 416, in execute
+    return Database.Cursor.execute(self, query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: customer_customer.national_code
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/sasha/che/lib/python3.11/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/views/generic/base.py", line 101, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/views/generic/edit.py", line 144, in post
+    return self.form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/PycharmProjects/ecommerce/customer/views.py", line 104, in form_valid
+    Customer.objects.get_or_create(user=user)
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/models/query.py", line 588, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/models/query.py", line 435, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/models/query.py", line 262, in __len__
+    self._fetch_all()
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/models/query.py", line 1354, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/models/query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1202, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/utils.py", line 99, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/utils.py", line 80, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 416, in execute
+    return Database.Cursor.execute(self, query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: customer_customer.national_code
+Watching for file changes with StatReloader
+Internal Server Error: /customer/login/
+Traceback (most recent call last):
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 416, in execute
+    return Database.Cursor.execute(self, query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: customer_customer.national_code
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/sasha/che/lib/python3.11/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/views/generic/base.py", line 101, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/views/generic/edit.py", line 144, in post
+    return self.form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/PycharmProjects/ecommerce/customer/views.py", line 104, in form_valid
+    Customer.objects.get_or_create(user=user)
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/models/query.py", line 588, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/models/query.py", line 435, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/models/query.py", line 262, in __len__
+    self._fetch_all()
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/models/query.py", line 1354, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/models/query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1202, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/utils.py", line 99, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/utils.py", line 80, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 416, in execute
+    return Database.Cursor.execute(self, query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: customer_customer.national_code
+/home/sasha/PycharmProjects/ecommerce/customer/models.py changed, reloading.
+Watching for file changes with StatReloader
+/home/sasha/PycharmProjects/ecommerce/customer/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /customer/login/
+Traceback (most recent call last):
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 416, in execute
+    return Database.Cursor.execute(self, query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: customer_customer.national_code
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/sasha/che/lib/python3.11/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/views/generic/base.py", line 101, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/views/generic/edit.py", line 144, in post
+    return self.form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/PycharmProjects/ecommerce/customer/views.py", line 104, in form_valid
+    Customer.objects.get_or_create(user=user)
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/models/query.py", line 588, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/models/query.py", line 435, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/models/query.py", line 262, in __len__
+    self._fetch_all()
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/models/query.py", line 1354, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/models/query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1202, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/utils.py", line 99, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/utils.py", line 80, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 416, in execute
+    return Database.Cursor.execute(self, query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: customer_customer.national_code
+/home/sasha/PycharmProjects/ecommerce/customer/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /customer/login/
+Traceback (most recent call last):
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 416, in execute
+    return Database.Cursor.execute(self, query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: customer_customer.national_code
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/sasha/che/lib/python3.11/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/views/generic/base.py", line 101, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/views/generic/edit.py", line 144, in post
+    return self.form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/PycharmProjects/ecommerce/customer/views.py", line 104, in form_valid
+    Customer.objects.get_or_create(user=user)
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/models/query.py", line 588, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/models/query.py", line 435, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/models/query.py", line 262, in __len__
+    self._fetch_all()
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/models/query.py", line 1354, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/models/query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1202, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/utils.py", line 99, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/utils.py", line 80, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sasha/che/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 416, in execute
+    return Database.Cursor.execute(self, query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: customer_customer.national_code
+Watching for file changes with StatReloader
+
+def xmap(task, it):
+    return 1
+
+
+def backend_cleanup():
+    return 1
+
+
+def backup_database():
+    return 1
+
+
+def chain(*args, **kwargs):
+    return 1
+
+
+def xstarmap(task, it):
+    return 1
+
+
+def accumulate(self, *args, **kwargs):
+    return 1
+
+
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+
+def chunks(task, it, n):
+    return 1
+
+
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+
+def xmap(task, it):
+    return 1
+
+
+def backup_database():
+    return 1
+
+
+def backend_cleanup():
+    return 1
+
+
+def chain(*args, **kwargs):
+    return 1
+
+
+def xstarmap(task, it):
+    return 1
+
+
+def accumulate(self, *args, **kwargs):
+    return 1
+
+
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+
+def chunks(task, it, n):
+    return 1
+
+
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+
+def xmap(task, it):
+    return 1
+
+
+def backend_cleanup():
+    return 1
+
+
+def chain(*args, **kwargs):
+    return 1
+
+
+def xstarmap(task, it):
+    return 1
+
+
+def accumulate(self, *args, **kwargs):
+    return 1
+
+
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+
+def chunks(task, it, n):
+    return 1
+
+
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+
+def backup_database():
+    return 1
+
+
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+
+def xmap(task, it):
+    return 1
+
+
+def backend_cleanup():
+    return 1
+
+
+def chain(*args, **kwargs):
+    return 1
+
+
+def xstarmap(task, it):
+    return 1
+
+
+def accumulate(self, *args, **kwargs):
+    return 1
+
+
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+
+def chunks(task, it, n):
+    return 1
+
+
+def backup_database():
+    return 1
+
+
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+Could not reverse url from user.user
+Could not reverse url from user.user
+Could not reverse url from user.user
+Could not reverse url from user.user
+Could not reverse url from user.user
+/home/sasha/PycharmProjects/ecommerce/ecommerce/settings.py changed, reloading.
+Watching for file changes with StatReloader
+
+def xmap(task, it):
+    return 1
+
+
+def backend_cleanup():
+    return 1
+
+
+def chain(*args, **kwargs):
+    return 1
+
+
+def xstarmap(task, it):
+    return 1
+
+
+def backup_database():
+    return 1
+
+
+def accumulate(self, *args, **kwargs):
+    return 1
+
+
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+
+def chunks(task, it, n):
+    return 1
+
+
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+
+def xmap(task, it):
+    return 1
+
+
+def backend_cleanup():
+    return 1
+
+
+def chain(*args, **kwargs):
+    return 1
+
+
+def xstarmap(task, it):
+    return 1
+
+
+def accumulate(self, *args, **kwargs):
+    return 1
+
+
+def backup_database():
+    return 1
+
+
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+
+def chunks(task, it, n):
+    return 1
+
+
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+
+def xmap(task, it):
+    return 1
+
+
+def backend_cleanup():
+    return 1
+
+
+def chain(*args, **kwargs):
+    return 1
+
+
+def xstarmap(task, it):
+    return 1
+
+
+def accumulate(self, *args, **kwargs):
+    return 1
+
+
+def backup_database():
+    return 1
+
+
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+
+def chunks(task, it, n):
+    return 1
+
+
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+
+def xmap(task, it):
+    return 1
+
+
+def backend_cleanup():
+    return 1
+
+
+def chain(*args, **kwargs):
+    return 1
+
+
+def xstarmap(task, it):
+    return 1
+
+
+def backup_database():
+    return 1
+
+
+def accumulate(self, *args, **kwargs):
+    return 1
+
+
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+
+def chunks(task, it, n):
+    return 1
+
+
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+/home/sasha/PycharmProjects/ecommerce/ecommerce/settings.py changed, reloading.

@@ -1,7 +1,6 @@
 FROM python:3.10-slim
 
 
-LABEL Author="Mehdi Shahidi"
 
 
 ENV PYTHONBUFFERED 1
